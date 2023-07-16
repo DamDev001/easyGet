@@ -1,0 +1,119 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #b3b2b2;
+    ;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #b3b2b2;
+    ;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b3b2b2;
+    ;
+}
+
+.dashboard{
+    padding: 1rem;
+
+    .container{
+        .top{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .user-small-detail{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 10px;
+                .user-profile{
+                    font-size: 40px;
+                }
+
+                .text{
+                    font-size: 14px;
+                }
+            }
+
+            .right{
+                .notification{
+                    font-size: 30px;
+                }
+            }
+        }
+
+        .center{
+            margin-top: 2rem;
+            border-radius: 1.25rem;
+            background: linear-gradient(146deg, #8675C9 0%, rgba(164, 77, 178, 0.36) 93.02%, rgba(186, 104, 200, 0.00) 100%);
+            padding: 20px;
+
+            .center-top{
+                color: white;
+                h1{
+                    margin-top: 0.5rem;
+                }
+            }
+
+            .center-bottom{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 1rem;
+
+
+                .icon{
+                    background: rgba(255, 255, 255, 0.885);
+                    padding: 10px;
+                    border-radius: 40px;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+
+        .transaction-history{
+            .example{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50vh;
+                color: rgba(180, 180, 180, 0.697);
+            }
+        }
+    }
+
+    .bottom-navbar{
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+        box-shadow: 2px 2px 2px 2px rgba(90, 52, 52, 0.574);
+        left: 0;
+        color: rgba(88, 88, 88, 0.802);
+
+        .send{
+            color: #8675C9;
+        }
+
+        .send,
+        .history,
+        .wallet,
+        .me{
+            font-size: 30px;
+        }
+    }
+}       

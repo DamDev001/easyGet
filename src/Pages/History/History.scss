@@ -1,0 +1,48 @@
+.history-container{
+    .container{
+        padding: 1rem;
+
+        .top{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .top-text{
+                color: rgb(179, 177, 177);
+            }
+        }
+        .transaction-history{
+            .defaultHistory{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                color: rgba(180, 180, 180, 0.697);
+            }
+        }
+    }
+
+    .bottom-navbar{
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+        box-shadow: 2px 2px 2px 2px rgba(90, 52, 52, 0.574);
+        left: 0;
+        color: rgba(88, 88, 88, 0.802);
+
+        .history{
+            color: #8675C9;
+        }
+
+        .send,
+        .history,
+        .wallet,
+        .me{
+            font-size: 30px;
+        }
+    }
+}

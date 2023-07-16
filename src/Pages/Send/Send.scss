@@ -1,0 +1,127 @@
+.send-container{
+    .container{
+        padding: 1rem;
+
+        .top{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .top-text{
+                color: rgb(179, 177, 177);
+            }
+        }
+
+        .center{
+            margin-top: 2rem;
+
+            .sending-details-request{
+                background: white;
+                box-shadow: 2px 2px 2px 2px rgba(184, 183, 183, 0.63);
+                padding: 10px;
+                border-radius: 10px;
+
+                form{
+                    margin-top: 1rem;
+                    input,select{
+                        width: 95%;
+                        margin-top: 1rem;
+                        font-size: 16px;
+                        padding: 10px 5px;
+                        border: 0;
+                        border-bottom: 1px solid gray;
+                        outline: 0;
+                        background: transparent;
+                    }
+
+                    select{
+                        width: 98%;
+                    }
+
+                    button{
+                        margin-top: 1.5rem;
+                        padding: 15px 15px;
+                        width: 98%;
+                        border: 0;
+                        font-size: 15px;
+                        background: #8675C9;
+                        color: white;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+
+        .account-details-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40vh;
+            .account-details{
+                margin-top: 2rem;
+                text-align: center;
+    
+               .banklogos{
+                display: none;
+               }
+    
+                .bank-name{
+                    color: rgb(149, 149, 149);
+                    text-transform: uppercase;
+                }
+                .className{
+                    font-weight: bold;
+                }
+            }
+    
+            .error{
+                margin-top: 2rem;
+                text-align: center;
+                .cancel{
+                    font-size: 50px;
+                    color: rgb(241, 66, 66);
+                }
+            }
+        }
+
+        .next{
+            position: absolute;
+            right: 0.5rem;
+            bottom: 2rem;
+
+            button{
+                padding: 10px 20px;
+                background: #8675C9;
+                color: white;
+                border-radius: 10px;
+                border: 0;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .bottom-navbar{
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+        box-shadow: 2px 2px 2px 2px rgba(90, 52, 52, 0.574);
+        left: 0;
+        color: rgba(88, 88, 88, 0.802);
+        z-index: 999;
+
+        .wallet{
+            color: #8675C9;
+        }
+
+        .send,
+        .history,
+        .wallet,
+        .me{
+            font-size: 30px;
+        }
+    }
+}

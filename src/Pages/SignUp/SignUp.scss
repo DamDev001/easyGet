@@ -1,0 +1,72 @@
+.signup{
+    padding: 1rem;
+
+    .back-arrow{
+        font-size: 18px;
+        a{
+            color: rgb(145, 145, 145);
+        }
+    }
+
+    .form-container{
+        margin-top: 4rem;
+
+        form{
+            margin-top: 20px;
+            span{
+                display: block;
+                margin-top: 20px;
+                label{
+                    display: block;
+                }
+                input{
+                    padding: 10px 0;
+                    width: 100%;
+                    border: 0;
+                    border-bottom: 1px solid gray;
+                    outline: 0;
+                }
+            }
+
+            span{
+                p{
+                    text-align: center;
+                    font-size: 13px;
+                    margin-top: 2rem;
+                }
+            }
+
+            #submit{
+                background: #BA68C8;
+                font-size: 18px;
+                color: white;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+        }
+
+    }
+
+    .form-container > p{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 15px;
+
+        a{
+            text-decoration: none;
+            color: #BA68C8;
+        }
+    }
+
+    .successful_error{
+        position: absolute;
+        background: green;
+        padding: 15px 20px;
+        top: -30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+        color: white;
+        transition: 1s;
+    }
+}

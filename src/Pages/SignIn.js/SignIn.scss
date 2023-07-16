@@ -1,0 +1,83 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #b3b2b2;
+    ;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #b3b2b2;
+    ;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b3b2b2;
+    ;
+}
+
+.signIp-container{
+    padding: 1rem;
+    .container{
+        .back-arrow{
+            font-size: 18px;
+            a{
+                color: rgb(145, 145, 145);
+            }
+        }
+
+        .signIn-hero-image{
+            text-align: center;
+        }
+
+        .form-container{
+            form{
+                margin-top: 1rem;
+                span{
+                    display: block;
+                    margin-top: 20px;
+                    label{
+                        display: block;
+                    }
+                    input{
+                        padding: 10px 0;
+                        width: 100%;
+                        border: 0;
+                        border-bottom: 1px solid gray;
+                        outline: none;
+                    }
+                }
+                .forgot{
+                    text-align: right;
+                    p{
+                        margin-top: 20px;
+                        font-size: 14px;
+                    }
+                }
+
+                #submit{
+                    background: #BA68C8;
+                    font-size: 18px;
+                    color: white;
+                    border-radius: 20px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .form-container > p{
+            text-align: center;
+            margin-top: 20px;
+            font-size: 15px;
+
+            a{
+                text-decoration: none;
+                color: #BA68C8;
+            }
+        }
+    }
+}
